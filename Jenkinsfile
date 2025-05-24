@@ -13,7 +13,7 @@ pipeline {
                 checkout([$class: 'GitSCM', 
                     branches: [[name: '*/main']], 
                     userRemoteConfigs: [[
-                        url: 'https://github.com/Ayoech/eureka-server',
+                        url: 'https://github.com/Ayoech/Review',
                         credentialsId: '6f7aaeaa-7ecf-43b8-b1fb-4f1758015d56'
                     ]]
                 ])
